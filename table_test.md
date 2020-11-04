@@ -1,6 +1,5 @@
 ---
-title: Table Test
----
+title: Beer List 
 
 <table>
   {% for row in site.data.beers %}
