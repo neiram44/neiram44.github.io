@@ -1,0 +1,9 @@
+<ul>
+{% for beer in site.data.beers %}
+  <li>
+    <a href="https://github.com/{{ beer.Name }}">
+      {{ beer.Style }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
