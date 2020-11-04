@@ -1,6 +1,6 @@
 ---
-title: Beer List 
-
+title: Beer List
+---
 <table>
   {% for row in site.data.beers %}
     {% if forloop.first %}
