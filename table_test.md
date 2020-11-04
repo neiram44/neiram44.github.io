@@ -5,7 +5,7 @@ title: Beer List
 {{ site.data.beers | size }}
 
 <table>
-  {% for row in site.data.beers %}
+  {% for row in site.data.beers | where: "Asst Brewer", "Oslo" %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
