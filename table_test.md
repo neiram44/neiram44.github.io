@@ -1,6 +1,9 @@
 ---
 title: Beer List
 ---
+
+{{ site.data.beers | size }}
+
 <table>
   {% for row in site.data.beers %}
     {% if forloop.first %}
