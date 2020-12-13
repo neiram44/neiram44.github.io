@@ -1,10 +1,10 @@
 # Site settings
-title:       Junior Theme
-email:       jonathon.bel.melbourne@gmail.com
-author:      Jonathon Belotti
-description: "A striking black-white Jekyll theme."
+title:       Petite Brouerie Blog
+email:       marien@petitbrouerie.com
+author:      Petite Brouerie
+description: "A blog about beer, making it, enjoying it"
 baseurl:     ""
-url:         "https://thundergolfer.github.io/junior-theme"
+url:         "https://neiram44.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
