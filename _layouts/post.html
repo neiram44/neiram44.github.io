@@ -8,14 +8,11 @@ layout: default
   {{ content }}
 </div>
 
-{% if post.tags.size > 0 %}
-<div class="tags">
-  Tag{% if post.tags.size > 1 %}s{% endif %}:
-  {{ post.tags | sort | join: ", " }}
-  </<div>
-
-  </div>
-{% endif %}
+<ul>
+  {% for tags in page.tags %}
+    <li>{{ tags }}</li>
+  {% endfor %}
+</ul>
 
 {% if site.related_posts.size >= 1 %}
 <div class="related">
