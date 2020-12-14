@@ -9,8 +9,12 @@ layout: default
 </div>
 
 {% if post.tags.size > 0 %}
+<div class="tags">
   Tag{% if post.tags.size > 1 %}s{% endif %}:
   {{ post.tags | sort | join: ", " }}
+  </<div>
+
+  </div>
 {% endif %}
 
 {% if site.related_posts.size >= 1 %}
